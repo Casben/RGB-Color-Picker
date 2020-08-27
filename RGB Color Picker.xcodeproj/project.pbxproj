@@ -13,6 +13,9 @@
 		CB6B6B8024F8514A005C6880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6B6B7E24F8514A005C6880 /* Main.storyboard */; };
 		CB6B6B8224F8514B005C6880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6B6B8124F8514B005C6880 /* Assets.xcassets */; };
 		CB6B6B8524F8514B005C6880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6B6B8324F8514B005C6880 /* LaunchScreen.storyboard */; };
+		CB6B6B9124F8516A005C6880 /* ColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B6B8D24F8516A005C6880 /* ColorVC.swift */; };
+		CB6B6B9224F8516A005C6880 /* CustomSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B6B8F24F8516A005C6880 /* CustomSliderView.swift */; };
+		CB6B6B9324F8516A005C6880 /* CustomLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B6B9024F8516A005C6880 /* CustomLabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CB6B6B8124F8514B005C6880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6B6B8424F8514B005C6880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB6B6B8624F8514B005C6880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6B6B8D24F8516A005C6880 /* ColorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorVC.swift; sourceTree = "<group>"; };
+		CB6B6B8F24F8516A005C6880 /* CustomSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSliderView.swift; sourceTree = "<group>"; };
+		CB6B6B9024F8516A005C6880 /* CustomLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 		CB6B6B7724F8514A005C6880 /* RGB Color Picker */ = {
 			isa = PBXGroup;
 			children = (
+				CB6B6B8C24F8516A005C6880 /* Controller */,
+				CB6B6B8E24F8516A005C6880 /* View */,
 				CB6B6B7824F8514A005C6880 /* AppDelegate.swift */,
 				CB6B6B7A24F8514A005C6880 /* SceneDelegate.swift */,
 				CB6B6B7C24F8514A005C6880 /* ViewController.swift */,
@@ -65,6 +73,23 @@
 				CB6B6B8624F8514B005C6880 /* Info.plist */,
 			);
 			path = "RGB Color Picker";
+			sourceTree = "<group>";
+		};
+		CB6B6B8C24F8516A005C6880 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B6B8D24F8516A005C6880 /* ColorVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB6B6B8E24F8516A005C6880 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B6B8F24F8516A005C6880 /* CustomSliderView.swift */,
+				CB6B6B9024F8516A005C6880 /* CustomLabelView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6B6B9124F8516A005C6880 /* ColorVC.swift in Sources */,
 				CB6B6B7D24F8514A005C6880 /* ViewController.swift in Sources */,
+				CB6B6B9324F8516A005C6880 /* CustomLabelView.swift in Sources */,
 				CB6B6B7924F8514A005C6880 /* AppDelegate.swift in Sources */,
 				CB6B6B7B24F8514A005C6880 /* SceneDelegate.swift in Sources */,
+				CB6B6B9224F8516A005C6880 /* CustomSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
