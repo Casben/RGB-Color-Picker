@@ -16,6 +16,7 @@
 		CB6B6B9124F8516A005C6880 /* ColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B6B8D24F8516A005C6880 /* ColorVC.swift */; };
 		CB6B6B9224F8516A005C6880 /* CustomSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B6B8F24F8516A005C6880 /* CustomSliderView.swift */; };
 		CB6B6B9324F8516A005C6880 /* CustomLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B6B9024F8516A005C6880 /* CustomLabelView.swift */; };
+		CB6B6B9524F851E5005C6880 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B6B9424F851E5005C6880 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CB6B6B8D24F8516A005C6880 /* ColorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorVC.swift; sourceTree = "<group>"; };
 		CB6B6B8F24F8516A005C6880 /* CustomSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSliderView.swift; sourceTree = "<group>"; };
 		CB6B6B9024F8516A005C6880 /* CustomLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabelView.swift; sourceTree = "<group>"; };
+		CB6B6B9424F851E5005C6880 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				CB6B6B7C24F8514A005C6880 /* ViewController.swift */,
 				CB6B6B7E24F8514A005C6880 /* Main.storyboard */,
 				CB6B6B8124F8514B005C6880 /* Assets.xcassets */,
+				CB6B6B9424F851E5005C6880 /* Extensions.swift */,
 				CB6B6B8324F8514B005C6880 /* LaunchScreen.storyboard */,
 				CB6B6B8624F8514B005C6880 /* Info.plist */,
 			);
@@ -169,6 +172,7 @@
 				CB6B6B7924F8514A005C6880 /* AppDelegate.swift in Sources */,
 				CB6B6B7B24F8514A005C6880 /* SceneDelegate.swift in Sources */,
 				CB6B6B9224F8516A005C6880 /* CustomSliderView.swift in Sources */,
+				CB6B6B9524F851E5005C6880 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
